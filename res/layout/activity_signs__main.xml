@@ -15,7 +15,9 @@
         android:layout_centerHorizontal="true"
         android:text="Warning Signs"
         android:textSize="12pt" />
-	<TextView
+
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -25,24 +27,40 @@
 3. Withdraws from friends and family.
 4.Does not or rarely attends class."
         android:textSize="10pt" />
-	<Button
-	    android:id="@+id/TestButton"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentBottom="true"
-	    android:layout_alignParentLeft="true"
-	    android:layout_marginBottom="60dp"
-	    android:layout_marginLeft="15dp"
-	    android:text="Back" />
 
-	<Button
-	    android:id="@+id/TestButton"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentBottom="true"
-	    android:layout_marginBottom="60dp"
-	    android:layout_alignParentRight="true"
-	    android:layout_marginRight="15dp"
-	    android:text="Next" />
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="15dp"
+        android:minHeight="64dp"
+        android:minWidth="128dp"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/TestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="15dp"
+        android:minHeight="64dp"
+        android:minWidth="256dp"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/NextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/BackButton"
+        android:layout_alignBottom="@+id/BackButton"
+        android:layout_alignRight="@+id/TestButton"
+        android:minHeight="64dp"
+        android:minWidth="128dp"
+        android:text="Next" />
 
 </RelativeLayout>
