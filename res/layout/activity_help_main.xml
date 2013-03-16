@@ -9,31 +9,47 @@
     tools:context=".Signs_Main" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Warning Signs"
+        android:text="How you can help"
         android:textSize="12pt" />
 
-	<Button
-	    android:id="@+id/TestButton"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentBottom="true"
-	    android:layout_alignParentLeft="true"
-	    android:layout_marginBottom="60dp"
-	    android:layout_marginLeft="15dp"
-	    android:text="Back" />
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignRight="@+id/TestButton"
+           android:layout_below="@+id/textView1"
+           android:layout_marginTop="60dp"
 
-	<Button
-	    android:id="@+id/TestButton"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentBottom="true"
-	    android:layout_marginBottom="60dp"
-	    android:layout_alignParentRight="true"
-	    android:layout_marginRight="15dp"
-	    android:text="Next" />
+           android:text="• Listen closely, with concern and without judgement
+• Allow the person to express his/her feelings
+• Speak directly. Be open and honest.
+• Acknowledge the pain and confusion the person is experiencing.
+• Ask directly if the person is suicidal."
+           android:textSize="9pt" />
+
+       <Button
+           android:id="@+id/TestButton1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+          <!--   android:layout_alignParentRight="true"
+           android:layout_alignParentBottom="true"-->
+           android:layout_marginBottom="10dp"
+           android:layout_marginRight="15dp"
+           android:text="Next" />
+
+       <Button
+           android:id="@+id/TestButton2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/textView1"
+           android:layout_below="@+id/textView1"
+           android:layout_marginBottom="10dp"
+           android:layout_marginLeft="15dp"
+           android:text="Back" />
 
 </RelativeLayout>
