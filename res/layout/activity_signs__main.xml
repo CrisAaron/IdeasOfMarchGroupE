@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Warning Signs"
+        android:text="@string/Signs"
         android:textSize="12pt" />
 
     <TextView
@@ -38,10 +38,10 @@
         android:layout_marginLeft="15dp"
         android:minHeight="64dp"
         android:minWidth="128dp"
-        android:text="Back" />
+        android:text="@string/Back" />
 
     <Button
-        android:id="@+id/TestButton"
+        android:id="@+id/HomeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -50,7 +50,7 @@
         android:layout_marginLeft="15dp"
         android:minHeight="64dp"
         android:minWidth="256dp"
-        android:text="Home" />
+        android:text="@string/Home" />
 
     <Button
         android:id="@+id/NextButton"
@@ -58,9 +58,9 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/BackButton"
         android:layout_alignBottom="@+id/BackButton"
-        android:layout_alignRight="@+id/TestButton"
+        android:layout_alignRight="@+id/HomeButton"
         android:minHeight="64dp"
         android:minWidth="128dp"
-        android:text="Next" />
+        android:text="@string/Next" />
 
 </RelativeLayout>
