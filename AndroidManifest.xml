@@ -24,7 +24,7 @@
         </activity>
         <activity
             android:name="com.example.csumb_spa.Signs_Main"
-            android:label="@string/title_activity_signs__main"
+            android:label="@string/title_activity_signs_main"
             android:parentActivityName="com.example.csumb_spa.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

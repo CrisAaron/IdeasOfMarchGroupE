@@ -3,18 +3,14 @@
 
     <string name="app_name">CSUMB_SPA</string>
     <string name="action_settings">Settings</string>
+    <string name="hyperlink_PGCC">http://pgcc.csumb.edu/</string>
     <string name="hello_world">Hello world!</string>
-    <string name="PGCChyperlink">http://pgcc.csumb.edu/</string>
-    <string name="title_activity_signs__main">Signs_Main</string>
-<<<<<<< HEAD
+    <string name="title_activity_signs_main">Signs_Main</string>
     <string name="Next">Next</string>
     <string name="Back">Back</string>
     <string name="Signs">Warning Signs</string>
-    <string name="How to Help">How to Help</string>
-    <string name="app_Title">CSUMB Suicide Prevention App</string><string name="Resources">Resources</string>
+    <string name="How_to_Help">How to Help</string>
+    <string name="app_Title">CSUMB Suicide Prevention App</string>
     
-=======
-    
->>>>>>> JacobsMenuSync1
 
 </resources>

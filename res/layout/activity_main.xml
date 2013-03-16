@@ -32,8 +32,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
+       
         android:layout_below="@+id/textView1"
         android:layout_marginTop="100dp"
-        android:text="@string/title_activity_signs__main" />
+        android:text="@string/title_activity_signs_main" />
     
 </RelativeLayout>
