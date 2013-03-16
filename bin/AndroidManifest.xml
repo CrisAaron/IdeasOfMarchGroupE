@@ -3,10 +3,16 @@
     package="com.example.csumb_spa"
     android:versionCode="1"
     android:versionName="1.0" android:installLocation="auto">
-
+  	
+  	<!--- my edit -->
+  	<uses-permission android:name="android.permission.CALL_PHONE" />
+    
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
+    
+  
+ 
 
     <application
         android:allowBackup="true"
