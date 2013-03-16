@@ -2,6 +2,7 @@ package com.example.csumb_spa;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.app.*;
@@ -38,3 +39,4 @@ public class MainActivity extends Activity {
 	}
 
 }
+
