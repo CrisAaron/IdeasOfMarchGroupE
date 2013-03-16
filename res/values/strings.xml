@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CSUMB_SPA</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hyperlink">http://pgcc.csumb.edu/</string>
+    <string name="title_activity_signs__main">Signs_Main</string>
+
+</resources>
