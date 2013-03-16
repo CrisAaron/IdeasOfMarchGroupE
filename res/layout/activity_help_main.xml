@@ -16,16 +16,6 @@
         android:text="Warning Signs"
         android:textSize="12pt" />
 
-	<TextView
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentTop="true"
-	    android:layout_marginTop="30"
-	    android:text="5. Expresses hopelessness or guilt. 
-6. Has sudden mood or behavioral changes.
-7. Lack of energy or motivation."
-	    android:textSize="10pt" />
-
 	<Button
 	    android:id="@+id/TestButton"
 	    android:layout_width="wrap_content"

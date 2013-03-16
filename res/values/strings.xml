@@ -18,5 +18,6 @@
     <string name="phone_NSPL">18002738255</string>
     <string name="phone_CHMPCL">18316254623</string>
     <string name="phone_NHCL">18316477611</string>
+    <string name="mainmenucallbuttontext">Call for Help</string>
 
 </resources>
