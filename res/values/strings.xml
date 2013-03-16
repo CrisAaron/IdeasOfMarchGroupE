@@ -4,20 +4,17 @@
     <string name="app_name">CSUMB_SPA</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="hyperlink_PGCC">http://pgcc.csumb.edu/</string>
+    <string name="PGCChyperlink">http://pgcc.csumb.edu/</string>
     <string name="title_activity_signs__main">Signs_Main</string>
+<<<<<<< HEAD
     <string name="Next">Next</string>
     <string name="Back">Back</string>
-    <string name="title_Signs">Warning Signs</string>
-    <string name="title_Help">How to Help</string>
-    <string name="title_Resources">Resources</string>
-    <string name="app_Title">CSUMB Suicide Prevention App</string>
-    <string name="hyperlink_SPCC">http://suicidepreventionlifeline.org</string>
-    <string name="phone_PGCC">18315823969</string>
-    <string name="phone_SPCC">18776635433</string>
-    <string name="phone_NSPL">18002738255</string>
-    <string name="phone_CHMPCL">18316254623</string>
-    <string name="phone_NHCL">18316477611</string>
-    <string name="mainmenucallbuttontext">Call for Help</string>
+    <string name="Signs">Warning Signs</string>
+    <string name="How to Help">How to Help</string>
+    <string name="app_Title">CSUMB Suicide Prevention App</string><string name="Resources">Resources</string>
+    
+=======
+    
+>>>>>>> JacobsMenuSync1
 
 </resources>
